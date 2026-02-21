@@ -43,10 +43,6 @@
 
 ;; Forward declarations — these are defined in agent-shell and shell-maker
 (defvar agent-shell--state)
-(defvar agent-shell-tool-use-expand-by-default)
-(defvar agent-shell-thought-process-expand-by-default)
-(defvar agent-shell-thought-process-icon)
-(defvar shell-maker--config)
 (defvar font-lock-doc-markup-face)
 
 (declare-function agent-shell--update-fragment "agent-shell")
