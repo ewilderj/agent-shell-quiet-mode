@@ -1,6 +1,6 @@
 ;;; agent-shell-quiet-mode.el --- Compact turn display for agent-shell -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2025 Edd Wilder-James
+;; Copyright (C) 2026 Edd Wilder-James
 
 ;; Author: Edd Wilder-James
 ;; URL: https://github.com/ewilderj/agent-shell-quiet-mode

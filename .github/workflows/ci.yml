@@ -26,6 +26,7 @@ jobs:
             --eval "(add-to-list 'package-archives '(\"melpa\" . \"https://melpa.org/packages/\") t)" \
             --eval "(package-initialize)" \
             --eval "(package-refresh-contents)" \
+            --eval "(package-install 'agent-shell)" \
             --eval "(package-install 'package-lint)"
 
       - name: Byte compile
