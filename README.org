@@ -1,7 +1,7 @@
 #+title: agent-shell-quiet-mode
 #+author: Edd Wilder-James
 
-Compact turn display for [[https://github.com/anthropics/agent-shell][agent-shell]].
+Compact turn display for [[https://github.com/xenodium/agent-shell][agent-shell]].
 
 When enabled, thought process and tool-call fragments within a turn are
 grouped under collapsible sections with a spinner animation, reducing
@@ -62,7 +62,7 @@ Toggle quiet mode globally:
 * Requirements
 
 - Emacs 29.1+
-- [[https://github.com/anthropics/agent-shell][agent-shell]] 0.35.2+
+- [[https://github.com/xenodium/agent-shell][agent-shell]] 0.35.2+
 
 * License
 
