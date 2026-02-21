@@ -3,7 +3,7 @@
 ;; Copyright (C) 2025 Edd Wilder-James
 
 ;; Author: Edd Wilder-James
-;; URL: https://github.com/ewilderjames/agent-shell-quiet-mode
+;; URL: https://github.com/ewilderj/agent-shell-quiet-mode
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "29.1") (agent-shell "0.35.2"))
 ;; Keywords: tools, convenience
@@ -356,10 +356,10 @@ Uses GROUP if provided, otherwise the current quiet group."
 
 (defun agent-shell-quiet-mode--init-state (state)
   "Add quiet-mode keys to STATE.  Used as :filter-return advice."
-  (map-put! state :quiet-group nil)
-  (map-put! state :quiet-group-index 0)
-  (map-put! state :quiet-groups nil)
-  state)
+  (append state
+          (list (cons :quiet-group nil)
+                (cons :quiet-group-index 0)
+                (cons :quiet-groups nil))))
 
 ;;; --- Notification advice ---
 ;;
